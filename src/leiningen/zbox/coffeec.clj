@@ -44,6 +44,7 @@
       (.write out (.getBytes content)))))
 
 (defn coffeec [in out]
+  (println "coffeec " in out)
   (doseq [f (input-list in)]
     (output (str (remove-from-end out "/") "/"
                  (clojure.string/replace (path-in-parent (.getPath f) in) #".coffee$" ".js"))

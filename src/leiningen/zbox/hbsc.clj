@@ -34,4 +34,5 @@
     (.write out (.getBytes (.toString sb)))))
 
 (defn hbsc [indir outf]
-    (output outf (preprocess-all indir)))
+  (println "hbsc " indir outf)
+  (output outf (preprocess-all indir)))

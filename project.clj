@@ -1,4 +1,4 @@
-(defproject zbox "0.0.1"
+(defproject org.clojars.chptx/zbox "0.0.2"
   :description "resource preprocessing toolbox"
   :url "http://github.com/chptx/zbox"
   :license {:name "Eclipse Public License"
